@@ -1,0 +1,79 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.box {
+  border-radius: 40px;
+  box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.128);
+  position: relative;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 90px 0;
+  grid-column: 1/13;
+  grid-row: 1/4;
+  border-radius: 2.5rem;
+  background: conic-gradient(
+    from 225deg at 50% 50%,
+    #086788 0deg,
+    #1c81a5 360deg
+  );
+
+  /* shadow */
+  box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.pre {
+  color: white;
+  width: 50%;
+}
+
+.pre h1 {
+  font-size: 31px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pre p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.badge {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: #086788;
+}
+
+.two {
+  background: var(
+    --angular,
+    conic-gradient(from 225deg at 50% 50%, #dba23a 0deg, #ffbc42 360deg)
+  );
+  height: 400px;
+}
